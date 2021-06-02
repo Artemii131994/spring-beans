@@ -8,13 +8,13 @@ import java.sql.Time;
 
 @Component
 public class AnimalsCage {
-
     @Autowired
     @Qualifier("dog")
     private Animal animal;
 
     @Autowired
     private Timer timer;
+
 
     public void whatAnimalSay() {
         System.out.println("Say:");
